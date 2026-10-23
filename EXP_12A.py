@@ -11,7 +11,7 @@ import pandas as pd
 # In[3]:
 
 
-data = pd.read_csv(r'D:\University\Jain\SEM 3\ML\Lab\exp12\ENJOYSPORT.csv')
+data = pd.read_csv('ENJOYSPORT.csv')
 print(data)
 
 

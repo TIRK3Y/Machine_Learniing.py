@@ -1,8 +1,6 @@
 #!/usr/bin/env python
 # coding: utf-8
 
-# # AJAY TIRKEY
-# # USN: 22MCAR0049
 
 # In[1]:
 
@@ -20,7 +18,7 @@ from sklearn.metrics import classification_report, confusion_matrix
 # In[3]:
 
 
-data = pd.read_csv(r'D:\University\Jain\SEM 3\ML\Lab\exp10\Finite Words.csv', names=['Message', 'Label'])
+data = pd.read_csv('Finite Words.csv', names=['Message', 'Label'])
 print("The Total instances in the Dataset: ", data.shape[0])
 
 

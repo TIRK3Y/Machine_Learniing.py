@@ -16,7 +16,7 @@ from sklearn.metrics import silhouette_score
 # In[2]:
 
 
-df_customers=pd.read_csv(r'D:\University\Jain\SEM 3\ML\Lab\Exp8\Mall_Customers.csv')
+df_customers=pd.read_csv('Mall_Customers.csv')
 
 
 # In[3]:

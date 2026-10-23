@@ -18,7 +18,7 @@ Machine learning lab exercises in Python, exported from Jupyter notebooks. They 
 
 ## Datasets
 
-The CSV datasets are not included in this repository; they are public datasets such as those available on [Kaggle](https://www.kaggle.com/). The scripts read them from absolute Windows paths (for example `D:\University\...\diabetes.csv`), so update the `pd.read_csv(...)` path in each script to point to a local copy. `EXP_1.py` downloads its dataset automatically through scikit-learn.
+The CSV datasets are not included in this repository; they are public datasets such as those available on [Kaggle](https://www.kaggle.com/). Place each CSV (for example `diabetes.csv`) in the folder you run the scripts from, or change the `pd.read_csv(...)` path in the script. `EXP_1.py` downloads its dataset automatically through scikit-learn.
 
 ## Tech stack
 

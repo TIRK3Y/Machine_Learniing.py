@@ -17,7 +17,7 @@ from sklearn.metrics import classification_report, confusion_matrix
 # In[4]:
 
 
-df_diabetes=pd.read_csv(r'D:\University\Jain\SEM 3\ML\Lab\Exp5\diabetes.csv')
+df_diabetes=pd.read_csv('diabetes.csv')
 
 
 # In[5]:
